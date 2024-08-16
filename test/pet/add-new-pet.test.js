@@ -4,9 +4,9 @@ import { assert } from "../../util/assert.js";
 
 const expect = assert.expect;
 
-export default function createUserTest() {
-  const resp = step.createUser();
-  describe("TCU-01: Create User", () => {
+export default function addNewPetTest() {
+  const resp = step.addPet();
+  describe("TCP-01: Add New Pet", () => {
     expect.statusCode(resp,200);
   });
   return resp;
