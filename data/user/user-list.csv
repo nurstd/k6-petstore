@@ -1,0 +1,5 @@
+id,username,firstName,lastName,email,password,phone,userStatus
+111221,usertest1,User,Test1,user1@test.com,12345678,6211111111,1
+111222,usertest2,User,Test2,user2@test.com,12345678,6211111112,0
+111223,usertest3,User,Test3,user3@test.com,12345678,6211111113,1
+111224,usertest4,User,Test4,user4@test.com,12345678,6211111114,0

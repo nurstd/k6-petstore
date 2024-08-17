@@ -1,7 +1,13 @@
 import { addNewPet } from "./pet/add-new-pet.js";
 import { createUser } from "./user/create-user.js";
+import { deleteUser } from "./user/delete-user.js";
 
 export const step = {
-  addPet      : addNewPet,
-  createUser  : createUser
+  pet   : {
+    addPet      : addNewPet,
+  },
+  user  : {
+    createUser  : createUser,
+    deleteUser  : deleteUser,
+  },  
 }
